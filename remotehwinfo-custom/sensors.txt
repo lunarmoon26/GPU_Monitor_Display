@@ -1,5 +1,296 @@
-port=COM9
-GPU Temperature=0
-GPU Clock=1
-GPU Core Load=2
-GPU Power=3
+port=COM3
+#Virtual Memory Committed
+#Virtual Memory Available
+#Virtual Memory Load
+Physical Memory Used=2
+#Physical Memory Available
+#Physical Memory Load
+#Page File Usage
+#Core 0 VID
+#Core 1 VID
+#Core 2 VID
+#Core 3 VID
+#Core 4 VID
+#Core 5 VID
+#Core 6 VID
+#Core 7 VID
+#Core 0 Clock (perf #1/2)
+#Core 1 Clock (perf #2/3)
+#Core 2 Clock (perf #7/8)
+#Core 3 Clock (perf #3/4)
+#Core 4 Clock (perf #6/7)
+#Core 5 Clock (perf #4/5)
+#Core 6 Clock (perf #1/1)
+#Core 7 Clock (perf #5/6)
+#Bus Clock
+#Core 0 T0 Effective Clock
+#Core 0 T1 Effective Clock
+#Core 1 T0 Effective Clock
+#Core 1 T1 Effective Clock
+#Core 2 T0 Effective Clock
+#Core 2 T1 Effective Clock
+#Core 3 T0 Effective Clock
+#Core 3 T1 Effective Clock
+#Core 4 T0 Effective Clock
+#Core 4 T1 Effective Clock
+#Core 5 T0 Effective Clock
+#Core 5 T1 Effective Clock
+#Core 6 T0 Effective Clock
+#Core 6 T1 Effective Clock
+#Core 7 T0 Effective Clock
+#Core 7 T1 Effective Clock
+#Average Effective Clock
+#Core 0 T0 Usage
+#Core 0 T1 Usage
+#Core 1 T0 Usage
+#Core 1 T1 Usage
+#Core 2 T0 Usage
+#Core 2 T1 Usage
+#Core 3 T0 Usage
+#Core 3 T1 Usage
+#Core 4 T0 Usage
+#Core 4 T1 Usage
+#Core 5 T0 Usage
+#Core 5 T1 Usage
+#Core 6 T0 Usage
+#Core 6 T1 Usage
+#Core 7 T0 Usage
+#Core 7 T1 Usage
+#Max CPU/Thread Usage
+#Total CPU Usage
+#Core 0 T0 Utility
+#Core 0 T1 Utility
+#Core 1 T0 Utility
+#Core 1 T1 Utility
+#Core 2 T0 Utility
+#Core 2 T1 Utility
+#Core 3 T0 Utility
+#Core 3 T1 Utility
+#Core 4 T0 Utility
+#Core 4 T1 Utility
+#Core 5 T0 Utility
+#Core 5 T1 Utility
+#Core 6 T0 Utility
+#Core 6 T1 Utility
+#Core 7 T0 Utility
+#Core 7 T1 Utility
+#Total CPU Utility
+#Core 0 Ratio
+#Core 1 Ratio
+#Core 2 Ratio
+#Core 3 Ratio
+#Core 4 Ratio
+#Core 5 Ratio
+#Core 6 Ratio
+#Core 7 Ratio
+#Package C6 Residency
+#Core 0 C0 Residency
+#Core 1 C0 Residency
+#Core 2 C0 Residency
+#Core 3 C0 Residency
+#Core 4 C0 Residency
+#Core 5 C0 Residency
+#Core 6 C0 Residency
+#Core 7 C0 Residency
+#Core 0 C1 Residency
+#Core 1 C1 Residency
+#Core 2 C1 Residency
+#Core 3 C1 Residency
+#Core 4 C1 Residency
+#Core 5 C1 Residency
+#Core 6 C1 Residency
+#Core 7 C1 Residency
+#Core 0 C6 Residency
+#Core 1 C6 Residency
+#Core 2 C6 Residency
+#Core 3 C6 Residency
+#Core 4 C6 Residency
+#Core 5 C6 Residency
+#Core 6 C6 Residency
+#Core 7 C6 Residency
+#Memory Clock
+#Memory Clock Ratio
+#Tcas
+#Trcd
+#Trp
+#Tras
+#Trc
+#Trfc
+#Command Rate
+#CPU (Tctl/Tdie)
+#CPU Die (average)=0
+#CPU CCD1 (Tdie)
+#Core0 (CCD1)
+#Core1 (CCD1)
+#Core2 (CCD1)
+#Core3 (CCD1)
+#Core4 (CCD1)
+#Core5 (CCD1)
+#Core6 (CCD1)
+#Core7 (CCD1)
+#L3 Cache (CCD1)
+#CPU IOD Hotspot
+#CPU IOD Average
+#CPU Core Voltage (SVI2 TFN)
+#SoC Voltage (SVI2 TFN)
+#CPU Core VID (Effective)
+#CPU Core Current (SVI2 TFN)
+#SoC Current (SVI2 TFN)
+#CPU TDC
+#CPU EDC
+#CPU Package Power
+#Core 0 Power
+#Core 1 Power
+#Core 2 Power
+#Core 3 Power
+#Core 4 Power
+#Core 5 Power
+#Core 6 Power
+#Core 7 Power
+#CPU Core Power (SVI2 TFN)
+#CPU SoC Power (SVI2 TFN)
+#Core+SoC Power (SVI2 TFN)
+#CPU PPT
+#Infinity Fabric Clock (FCLK)
+#Memory Controller Clock (UCLK)
+#L3 Cache (CCD1)
+#Frequency Limit - Global
+#CPU PPT Limit
+#CPU TDC Limit
+#CPU EDC Limit
+#Power Reporting Deviation (Accuracy)
+#Thermal Throttling (HTC)
+#Thermal Throttling (PROCHOT CPU)
+#Thermal Throttling (PROCHOT EXT)
+#DRAM Read Bandwidth
+#DRAM Write Bandwidth
+#Average Active Core Count
+#Motherboard
+#Temp3
+#CPU (Weighted Value)
+CPU Package=0
+CPU=1
+#Temp9
+#TSI0 (CPU)
+#Vcore
+#+5V
+#AVSB
+#3VCC
+#+12V
+#VIN8
+#VIN4
+#3VSB
+#VBAT
+#VTT
+#VIN5
+#VIN6
+#VIN2
+#VIN3
+#VIN7
+#VIN9
+#VHIF
+#Chassis1
+#CPU
+#DIMM[0] Temperature (BANK 0/DIMM_A1)
+#DIMM[1] Temperature (BANK 1/DIMM_B1)
+#Drive Temperature
+#Drive Remaining Life
+#Drive Failure
+#Drive Warning
+#Total Host Writes
+#Total Host Reads
+#Drive Temperature
+#Drive Temperature 2
+#Drive Remaining Life
+#Drive Failure
+#Drive Warning
+#Total Host Writes
+#Total Host Reads
+#Read Activity
+#Write Activity
+#Total Activity
+#Read Rate
+#Write Rate
+#Read Total
+#Write Total
+#Read Activity
+#Write Activity
+#Total Activity
+#Read Rate
+#Write Rate
+#Read Total
+#Write Total
+GPU Temperature=3
+#GPU Memory Junction Temperature
+#GPU Hot Spot Temperature
+#GPU Core Voltage
+#GPU PCIe +12V Input Voltage
+#GPU 8-pin #1 Input Voltage
+#GPU 8-pin #2 Input Voltage
+#GPU Misc0 Input Voltage
+#GPU Misc1 Input Voltage
+#GPU Misc2 Input Voltage
+#GPU 8-pin #3 Input Voltage
+#GPU SRAM Output Voltage
+#GPU Fan1
+#GPU Fan2
+#GPU Power
+#GPU Core (NVVDD) Input Power (sum)
+#GPU SRAM Input Power (sum)
+#GPU FBVDD Input Power (sum)
+#GPU PCIe +12V Input Power
+#GPU 8-pin #1 Input Power
+#GPU 8-pin #2 Input Power
+#GPU Misc0 Input Power
+#GPU Misc1 Input Power
+#GPU Misc2 Input Power
+#GPU Core (NVVDD2) Input Power (sum)
+#GPU Input PP Source Power (sum)
+#GPU Core (NVVDD1) Input Power (sum)
+#GPU Misc3 Input Power (sum)
+#GPU 8-pin #3 Input Power
+#GPU Core (NVVDD) Output Power (sum)
+#GPU Core (NVVDD) Output Power
+#GPU Core (NVVDD) Output Power
+#GPU SRAM Output Power
+#GPU Clock
+#GPU Memory Clock
+#GPU Video Clock
+#GPU Effective Clock
+#GPU Core Load
+#GPU Memory Controller Load
+#GPU Video Engine Load
+#GPU Bus Load
+#GPU Memory Usage
+#GPU D3D Usage
+#GPU Video Decode 0 Usage
+#GPU Video Encode 0 Usage
+#GPU Computing (Compute_0) Usage
+#GPU Computing (Cuda) Usage
+#GPU Computing (Compute_1) Usage
+#GPU VR Usage
+#GPU Fan1
+#GPU Fan2
+#Performance Limit - Power
+#Performance Limit - Thermal
+#Performance Limit - Reliability Voltage
+#Performance Limit - Max Operating Voltage
+#Performance Limit - Utilization
+#Performance Limit - SLI GPUBoost Sync
+#Total GPU Power (normalized) [% of TDP]
+#Total GPU Power [% of TDP]
+#GPU Memory Allocated
+#GPU D3D Memory Dedicated
+#GPU D3D Memory Dynamic
+#PCIe Link Speed
+#GPU VRM Temperature
+#GPU VRM Temperature
+#Total DL
+#Total UP
+#Current DL rate
+#Current UP rate
+#Total DL
+#Total UP
+#Current DL rate
+#Current UP rate
+#Total Errors

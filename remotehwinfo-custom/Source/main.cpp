@@ -282,7 +282,9 @@ void WriteJsonToArduino(wchar_t* json)
 {
 	char* str = new char[wcslen(json) + 1];
 	wcstombs(str, json, MAX_DATA_LENGTH);
-	arduino->writeSerialPort(str, MAX_DATA_LENGTH);
+	if (arduino->writeSerialPort(str, MAX_DATA_LENGTH)) {
+		//printf("Data Sent: %s", str);
+	}
 }
 
 void ReadArduino()
@@ -364,13 +366,14 @@ size_t CreateJson(char **jsonData)
 
 				swprintf(json + wcslen(json),
 						 L""
-						 L"]"
-						 L"}\n");
+						 L"]");
 
 				free(sensors);
 				free(readings);
 			}
 		}
+
+		swprintf(json + wcslen(json), L"}\n");
 
 		WriteJsonToArduino(json);
 		free(json);
@@ -392,6 +395,9 @@ bool readConfig() {
 
 		for (string line; getline(sensorsFile, line); )
 		{
+			if (line[0] == '#') {
+				continue;
+			}
 			string sensorName = line.substr(0, line.find(delimiter));
 			string iteratorNumberAsString = line.substr(line.find(delimiter) + 1, line.length());
 			if (sensorName == "port")
@@ -471,7 +477,7 @@ void CommunicateWithArduino()
 		printf("%s", incomingData);
 
 		// 
-		Sleep(1000);
+		Sleep(1500);
 	}
 }
 
